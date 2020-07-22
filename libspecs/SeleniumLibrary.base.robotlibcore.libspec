@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keywordspec name="SeleniumLibrary.base.robotlibcore" type="LIBRARY" format="ROBOT" scope="GLOBAL" namedargs="true" generated="2020-06-29T06:32:56Z" specversion="2" source="..\..\Program Files (x86)\Python\lib\site-packages\SeleniumLibrary\base\robotlibcore.py" lineno="1">
+<version>2.0.2</version>
+<scope>global</scope>
+<namedargs>yes</namedargs>
+<doc>Generic test library core for Robot Framework.
+
+Main usage is easing creating larger test libraries. For more information and
+examples see the project pages at
+https://github.com/robotframework/PythonLibCore</doc>
+</keywordspec>

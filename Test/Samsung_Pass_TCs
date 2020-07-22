@@ -1,0 +1,42 @@
+*** Settings ***
+Library    SeleniumLibrary
+
+*** Test Cases ***
+    
+Test Case 1
+    [Tags]     Test Case 1: Account Management Navigation Menu
+    Open Browser    https://dev-admin.samsungpass.com/#/    chrome
+    Set Browser Implicit Wait    5s
+    Sleep    2s
+    Click Element    id=lnbAccountManagementLink    
+    Sleep    2s   
+    Click Element    id=lnbAccountLink 
+    Sleep    2s
+    Click Element    id=lnbPendingLink 
+    Sleep    2s
+    Click Element    id=lnbPartnerLink 
+    Sleep    2s
+    Click Element    id=lnbRoleManagementLink 
+    Sleep    2s
+    Click Element    id=lnbRoleManagementRoleGroupLink 
+    Sleep    2s
+    Close Browser
+    
+Test Case 2
+    [Tags]     Test Case 2: App Management Navigation Menu
+    Open Browser    https://dev-admin.samsungpass.com/#/    chrome
+    Set Browser Implicit Wait    5s
+    Sleep    2s
+    Click Element    id=lnbAppManagementLink    
+    Sleep    2s   
+    Click Element    id=lnbSpassApplicationAppsLink 
+    Sleep    2s
+    Click Element    id=lnbSpassApplicationFrameworkLink 
+    Sleep    2s
+    Click Element    id=lnbSpassApplicationNoticeLink 
+    Sleep    2s
+    Click Element    id=lnbSpassApplicationTermsLink 
+    Sleep    2s
+    Click Element    id=lnbPartnerManagementLink 
+    Sleep    2s
+    Close Browser
